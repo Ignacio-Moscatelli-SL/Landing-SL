@@ -641,11 +641,24 @@ footer li i {
         width: 100%;
     }
 
-    #banner-container {
-        top: 10px;
-        width: 80%;
-        padding: 20px;
+    #banner > div {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
+
+    #banner-container {
+        left: unset;
+        position: relative;
+        top: unset;
+        background-color: unset;
+        padding: 20px;
+        border-radius: unset;
+        width: fit-content;
+    }
+
 
     #banner-container ul {
         margin-top: 0;

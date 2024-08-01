@@ -672,13 +672,32 @@ footer li i {
 
     /*-----------NOSOTROS------------*/
     #nosotros > div {
-        flex-direction: column;
+        padding-top: 60px;
+    }
+
+    #nosotros article {
+        width: 100px;
+    }
+
+
+    #nosotros article p{
+        font-size: 16px;
+    }
+
+    .circle-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    #nosotros img{
+        width: 100px;
     }
 
     /*-----------TESTIMONIOS------------*/
     #testimonios h3 {
         font-size: 56px;
     }
+
 
     /*-----------INSCRIPCIONES------------*/
     #inscripciones {
@@ -692,7 +711,19 @@ footer li i {
         text-align: center;
     }
 
-  
+    /*-----------CONTACTO------------*/
+
+    #contacto iframe {
+        width: 90%;
+        height: 300px;
+    }
+
+
+    /*-----------CONSULTA-INSCRIPCIONES------------*/
+    #consulta-inscripciones {
+        padding-top: 100px;
+    }
+
     /*-----------FOOTER------------*/
     
     #contacto-footer ul{
